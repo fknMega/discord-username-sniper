@@ -50,6 +50,8 @@ A Discord selfbot that allows you to snipe a specific username and automatically
      ```
 
 4. Replace the file `node_modules/discord.js-selfbot-v13/src/structures/ClientUser.js` with the modified version available [here](https://github.com/fknMega/discord.js-selfbot-v13/blob/db92bb073c92e87c4920f8b6946478316c089495/src/structures/ClientUser.js).
+> **Important:** Do this or it will crash while trying to snipe.
+
 
 ## Configuration
 
