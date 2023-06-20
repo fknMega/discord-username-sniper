@@ -1,0 +1,8 @@
+{
+    "toSnipe": "username to snipe",
+    "myPassword": "your password",
+    "myToken": "your token",
+
+    "captcha_service": "capmonster or 2captcha",
+    "apiKey": "your captcha key"
+}
