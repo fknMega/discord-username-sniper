@@ -107,3 +107,7 @@ Example of a valid output:
 - [2Captcha](https://www.npmjs.com/package/2captcha) (if using 2Captcha captcha service)
 - Made by fknMega
 
+
+
+[![Star History Chart](https://api.star-history.com/svg?repos=fknMega/ReboundGuardian,fknMega/discord-username-sniper&type=Date)](https://star-history.com/#fknMega/ReboundGuardian&fknMega/discord-username-sniper&Date)
+
