@@ -24,6 +24,9 @@ A Discord selfbot that allows you to snipe a specific username and automatically
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) installed on your machine.
+- Note: Before running the selfbot, make sure you have at least one interaction with the Discord account that currently owns the username you want to snipe. It is recommended to send a friend request or initiate a direct message conversation with that account.
+- Please place a star on this repository on the top right :D
+
 
 ## Installation
 
