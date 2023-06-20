@@ -26,6 +26,7 @@ A Discord selfbot that allows you to snipe a specific username and automatically
 
 
  </p>
+ 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) installed on your machine.
