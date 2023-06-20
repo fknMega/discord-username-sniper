@@ -24,7 +24,7 @@ const client = new Discord.Client({
 
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.username}\nSniping ${toSnipe}`);
+  console.log(`Logged in as ${client.user.username}\nSniping ${toSnipe}\nMade by https://github.com/fknMega`);
   
 });
 
