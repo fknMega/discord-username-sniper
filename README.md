@@ -20,7 +20,12 @@ A Discord selfbot that allows you to snipe a specific username and automatically
     <img src="http://en-ru.gigabyte-data.com/microsites/data/167/download-color.png" width='300'>
   </a>
  </p>
- 
+ <p align="center">
+<img src='https://img.shields.io/github/downloads/fknMega/discord-username-sniper/total.svg' width='100'>
+
+
+
+ </p>
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) installed on your machine.
