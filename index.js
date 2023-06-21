@@ -1,5 +1,4 @@
 const Discord = require('discord.js-selfbot-v13');
-const axios = require('axios');
 //get config.json
 const config = require('./config.json');
 //get toSnipe from config
@@ -55,6 +54,7 @@ async function ChangeUsername() {
 
 async function dmUser(user) {
   //send post request to https://discord.com/api/v9/users/@me/channels
+  const axios = require('axios');
 
   //token & user agent headers
   const headers = {
