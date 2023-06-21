@@ -20,12 +20,19 @@ const client = new Discord.Client({
   captchaService: captchaService,
 })
 
-
-
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}\nSniping ${toSnipe}\nMade by https://github.com/fknMega`);
+
+  /*
+  > Optional: 
+  If you can't have an interaction with the user,
+  use this method to make a dm channel by force using the discord API
+
+  replace id with the user id of the target.
+  */
   
+  //dmUser('id');
+  // remove the // to enable ^
 });
 
 client.on('userUpdate', (oldUser, newUser) => {
@@ -43,12 +50,27 @@ async function ChangeUsername() {
   }).catch((err) => {
     console.log(err);
   });
-  
+
+}
+
+async function dmUser(user) {
+  //send post request to https://discord.com/api/v9/users/@me/channels
+
+  //token & user agent headers
+  const headers = {
+    'Authorization': `${myToken}`,
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0',
+    'Content-Type': 'application/json'
   }
 
+  //data to send
+  const data = {
+    'recipients': [`${user}`]
+  }
 
-
-
-  
+  //send post request
+  res = await axios.post('https://discord.com/api/v9/users/@me/channels', data, { headers: headers })
+  console.log('Made dm: ' + res.status)
+}
 
 client.login(myToken);
