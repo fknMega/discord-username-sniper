@@ -99,6 +99,16 @@ Example of a valid output:
 
 - This selfbot is intended for educational purposes and self-use only. Use it responsibly and respect Discord's Terms of Service.
 - Be careful with your Discord account token and keep it private. Sharing your token can lead to unauthorized access to your account.
+- You can test it by adding ChangeUsername function to the ready event =>
+```js
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.username}\nSniping ${toSnipe}\nMade by https://github.com/fknMega`);
+ 
+  console.log('Testing ƪ(˘⌣˘)ʃ');
+  ChangeUsername();
+
+});
+```
 
 ## Credits
 
