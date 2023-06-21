@@ -109,7 +109,10 @@ client.on('ready', () => {
 
 });
 ```
-- If you are unable to have an interaction with the target user, go to index.js, line 34, remove "//" and replace id.
+- If you are unable to have an interaction with the target user, go to index.js, line 34, remove "//" and replace id, then install axios =>
+```
+npm install axios
+```
 
 ## Credits
 
