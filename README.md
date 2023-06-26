@@ -5,6 +5,11 @@ by fknMega
 
 A Discord selfbot that allows you to snipe a specific username and automatically change your username to the desired one whenever it becomes available.
 
+
+# Alert !!!
+> Discord has a username locking machenism, we don't know how much time you have to wait to claim a username, the sniper only works if you add delay of 3+ days to sniping (we dont know exactly)
+
+
 ## Features
 
 - Snipes a specific username on Discord.
